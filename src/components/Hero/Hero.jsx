@@ -1,7 +1,9 @@
 import React from "react";
-
-const Hero = () => {
-  return <div></div>;
+import s from "./Hero.module.css";
+  const Hero = () => {
+  return <div>
+    <h1 className = {s.heroSectionTitle} </hi>
+  </div>;
 };
 
 export default Hero;
